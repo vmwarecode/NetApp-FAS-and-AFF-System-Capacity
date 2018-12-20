@@ -1,0 +1,1306 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1545321187804,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/NetApp FAS and AFF System Capacity",
+      "namePath": "Custom Dashboards",
+      "rank": 424,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "80e712b0-a198-4adb-8d99-a6a814a64ab7",
+            "widgetIdReceiver": "a5aea109-59d8-41f5-b2d0-c5c2acee2c1a"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "80e712b0-a198-4adb-8d99-a6a814a64ab7",
+            "widgetIdReceiver": "209ce720-e820-4aea-bf50-1a002dad3a8b"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "80e712b0-a198-4adb-8d99-a6a814a64ab7",
+            "widgetIdReceiver": "f5dcd1e2-66a1-4d46-bfad-29f3a235678a"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "f5dcd1e2-66a1-4d46-bfad-29f3a235678a",
+            "widgetIdReceiver": "103d7995-8a3d-4419-a346-e1d3f032ed3d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "f5dcd1e2-66a1-4d46-bfad-29f3a235678a",
+            "widgetIdReceiver": "bcc3ae3e-aae2-4c58-b0b6-e5c898f23565"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "f5dcd1e2-66a1-4d46-bfad-29f3a235678a",
+            "widgetIdReceiver": "fa06ca9a-df70-45d3-9fc7-1ea22be9dc13"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "fa06ca9a-df70-45d3-9fc7-1ea22be9dc13",
+            "widgetIdReceiver": "2906c175-182e-4cb0-9158-e1ae29cfd590"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "fa06ca9a-df70-45d3-9fc7-1ea22be9dc13",
+            "widgetIdReceiver": "ef3de1de-ce49-4500-b4e8-47e406de3563"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "fa06ca9a-df70-45d3-9fc7-1ea22be9dc13",
+            "widgetIdReceiver": "6ba8cc9e-b4d0-4dd5-b3d6-707e6294c5ac"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ba8cc9e-b4d0-4dd5-b3d6-707e6294c5ac",
+            "widgetIdReceiver": "625cbe8e-5e54-4fba-a9c2-7a553b1ec6e4"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6ba8cc9e-b4d0-4dd5-b3d6-707e6294c5ac",
+            "widgetIdReceiver": "1be725bc-e20d-489b-bea9-d7c60ddc649d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "80e712b0-a198-4adb-8d99-a6a814a64ab7",
+            "widgetIdReceiver": "fb091697-a2a2-44f5-aeb7-d101078630a5"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "System Model",
+                     "metricKey": "resource_information|system_model",
+                     "metricName": "Resource Information|System Model",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Cluster Parent",
+                     "metricKey": "relationships|NetAppCluster_parent",
+                     "metricName": "Relationships|NetApp Cluster Parent",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Interconnect Links",
+                     "metricKey": "resource_information|interconnect_links",
+                     "metricName": "Resource Information|Interconnect Links",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "NetApp FAS/AFF System"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 5,
+               "x": 1,
+               "y": 1
+            },
+            "height": 267,
+            "id": "80e712b0-a198-4adb-8d99-a6a814a64ab7",
+            "states": [
+               {
+                  "key": "permResGrid_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_80e712b0-a198-4adb-8d99-a6a814a64ab7",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A152%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A162%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A145%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A130%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A237%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A167%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ewidth%25253Dn%2525253A165%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_resource_information%252525257Csystem_model%2525255Edirection%2525253Ds%252525253AASC"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_80e712b0-a198-4adb-8d99-a6a814a64ab7",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "NetApp FAS/AFF System",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel29404-1",
+                     "isStringMetric": false,
+                     "metricKey": "capacity|netappsystem_used_capacity_percentage",
+                     "metricName": "Capacity|Used Capacity",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "NetApp System",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "NetApp FAS/AFF System Capacity Usage Chart (for selected System)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 7,
+               "x": 6,
+               "y": 1
+            },
+            "height": 267,
+            "id": "a5aea109-59d8-41f5-b2d0-c5c2acee2c1a",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_a5aea109-59d8-41f5-b2d0-c5c2acee2c1a",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last90Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_a5aea109-59d8-41f5-b2d0-c5c2acee2c1a",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_a5aea109-59d8-41f5-b2d0-c5c2acee2c1a",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_a5aea109-59d8-41f5-b2d0-c5c2acee2c1a",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_a5aea109-59d8-41f5-b2d0-c5c2acee2c1a",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_a5aea109-59d8-41f5-b2d0-c5c2acee2c1a",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "NetApp FAS/AFF System Capacity Usage Chart (for selected System)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 8,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel29946-1",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappsystem_committed_capacity",
+                        "metricName": "Capacity|Committed Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel29946-2",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappsystem_available_capacity",
+                        "metricName": "Capacity|Free Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel29946-3",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappsystem_available_capacity_percentage",
+                        "metricName": "Capacity|Free Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel29946-4",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappsystem_total_capacity",
+                        "metricName": "Capacity|Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel29946-5",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappsystem_used_capacity",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel29946-6",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappsystem_used_capacity_percentage",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel37227-1",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                        "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel37227-2",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp FAS/AFF System Capacity Scoreboard (for selected System)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 12,
+               "x": 1,
+               "y": 9
+            },
+            "height": 96,
+            "id": "209ce720-e820-4aea-bf50-1a002dad3a8b",
+            "title": "NetApp FAS/AFF System Capacity Scoreboard (for selected System)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Block Type",
+                     "metricKey": "resource_information|blocktype",
+                     "metricName": "Resource Information|Block Type",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Node Key",
+                     "metricKey": "resource_information|node_key",
+                     "metricName": "Resource Information|Node Key",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "RAID Status",
+                     "metricKey": "resource_information|raid_status",
+                     "metricName": "Resource Information|RAID Status",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "NetApp FAS/AFF Aggregates (for selected System)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 1,
+               "y": 11
+            },
+            "height": 267,
+            "id": "f5dcd1e2-66a1-4d46-bfad-29f3a235678a",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_f5dcd1e2-66a1-4d46-bfad-29f3a235678a",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permResGrid_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_f5dcd1e2-66a1-4d46-bfad-29f3a235678a",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A139%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A144%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A187%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "NetApp FAS/AFF Aggregates (for selected System)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel34057-1",
+                     "isStringMetric": false,
+                     "metricKey": "capacity|netappaggregate_used_capacity_percentage",
+                     "metricName": "Capacity|Used Capacity",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:1_::_",
+                     "resourceKindName": "NetApp Aggregate",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "NetApp FAS/AFF Aggregate Capacity Usage Chart (for selected Aggregate)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 5,
+               "y": 11
+            },
+            "height": 267,
+            "id": "103d7995-8a3d-4419-a346-e1d3f032ed3d",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_103d7995-8a3d-4419-a346-e1d3f032ed3d",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last90Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_103d7995-8a3d-4419-a346-e1d3f032ed3d",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_103d7995-8a3d-4419-a346-e1d3f032ed3d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_103d7995-8a3d-4419-a346-e1d3f032ed3d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_103d7995-8a3d-4419-a346-e1d3f032ed3d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_103d7995-8a3d-4419-a346-e1d3f032ed3d",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "NetApp FAS/AFF Aggregate Capacity Usage Chart (for selected Aggregate)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel36723-1",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "capacity|committed_space_percentage",
+                        "metricName": "Capacity|Committed Space",
+                        "metricUnitId": -1,
+                        "orangeBound": 98,
+                        "redBound": 99,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto",
+                        "yellowBound": 95
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36723-2",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappaggregate_available_capacity",
+                        "metricName": "Capacity|Free Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36723-3",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappaggregate_available_capacity_percentage",
+                        "metricName": "Capacity|Free Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36723-4",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappaggregate_total_capacity",
+                        "metricName": "Capacity|Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36723-5",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|committed_space",
+                        "metricName": "Capacity|Total Committed Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36723-6",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappaggregate_used_capacity",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel36723-7",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "capacity|netappaggregate_used_capacity_percentage",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "orangeBound": 95,
+                        "redBound": 99,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto",
+                        "yellowBound": 90
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36723-8",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                        "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel36723-9",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NetApp Aggregate",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last90Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp FAS/AFF Aggregate Capacity Scoreboard (for selected Aggregate)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 9,
+               "y": 11
+            },
+            "height": 267,
+            "id": "bcc3ae3e-aae2-4c58-b0b6-e5c898f23565",
+            "title": "NetApp FAS/AFF Aggregate Capacity Scoreboard (for selected Aggregate)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Block Type",
+                     "metricKey": "resource_information|blocktype",
+                     "metricName": "Resource Information|Block Type",
+                     "resourceKindId": "resourceKind:id:2_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricKey": "resource_information|aggregate_key",
+                     "metricName": "Resource Information|Aggregate Key",
+                     "resourceKindId": "resourceKind:id:2_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricKey": "resource_information|JunctionPath",
+                     "metricName": "Resource Information|Junction Path",
+                     "resourceKindId": "resourceKind:id:2_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:2_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:2_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "NetApp FAS/AFF Volumes (for selected Aggregate)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 1,
+               "y": 16
+            },
+            "height": 324,
+            "id": "fa06ca9a-df70-45d3-9fc7-1ea22be9dc13",
+            "states": [
+               {
+                  "key": "permResGrid_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_fa06ca9a-df70-45d3-9fc7-1ea22be9dc13",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A153%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253AASC"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_fa06ca9a-df70-45d3-9fc7-1ea22be9dc13",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "NetApp FAS/AFF Volumes (for selected Aggregate)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel41605-1",
+                     "isStringMetric": false,
+                     "metricKey": "capacity|netappvolume_used_capacity_percentage",
+                     "metricName": "Capacity|Used Capacity",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:2_::_",
+                     "resourceKindName": "NetApp Volume",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "NetApp FAS/AFF Volume Capacity Usage Chart (for selected Volume)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 5,
+               "y": 16
+            },
+            "height": 324,
+            "id": "2906c175-182e-4cb0-9158-e1ae29cfd590",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_2906c175-182e-4cb0-9158-e1ae29cfd590",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last90Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_2906c175-182e-4cb0-9158-e1ae29cfd590",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_2906c175-182e-4cb0-9158-e1ae29cfd590",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_2906c175-182e-4cb0-9158-e1ae29cfd590",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_2906c175-182e-4cb0-9158-e1ae29cfd590",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_2906c175-182e-4cb0-9158-e1ae29cfd590",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "NetApp FAS/AFF Volume Capacity Usage Chart (for selected Volume)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-1",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|compression_space_savings",
+                        "metricName": "Capacity|Compression Space Savings",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-2",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|compression_space_savings_percent",
+                        "metricName": "Capacity|Compression Space Savings",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-3",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappvolume_available_capacity",
+                        "metricName": "Capacity|Free Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-4",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappvolume_available_capacity_percentage",
+                        "metricName": "Capacity|Free Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-5",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|hostedProvisioned",
+                        "metricName": "Capacity|Hosted Provisioned Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-6",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|hostedUsed",
+                        "metricName": "Capacity|Hosted Used Space",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-7",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappvolume_total_capacity",
+                        "metricName": "Capacity|Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-8",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappvolume_used_capacity",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-9",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netappvolume_used_capacity_percentage",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-10",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                        "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel42297-11",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NetApp Volume",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last90Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp FAS/AFF Volume Capacity Scoreboard (for selected Volume)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 9,
+               "y": 16
+            },
+            "height": 324,
+            "id": "ef3de1de-ce49-4500-b4e8-47e406de3563",
+            "title": "NetApp FAS/AFF Volume Capacity Scoreboard (for selected Volume)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "Volume Key",
+                  "metricKey": "resource_information|volume_key",
+                  "metricName": "Resource Information|Volume Key",
+                  "resourceKindId": "resourceKind:id:3_::_"
+               }],
+               "mode": -1,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:3_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:3_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "NetAPP FAS/AFF LUNs (for selected Volume)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 1,
+               "y": 22
+            },
+            "height": 267,
+            "id": "6ba8cc9e-b4d0-4dd5-b3d6-707e6294c5ac",
+            "states": [
+               {
+                  "key": "permResGrid_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_6ba8cc9e-b4d0-4dd5-b3d6-707e6294c5ac",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A158%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A203%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_6ba8cc9e-b4d0-4dd5-b3d6-707e6294c5ac",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "NetAPP FAS/AFF LUNs (for selected Volume)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel51170-1",
+                     "isStringMetric": false,
+                     "metricKey": "capacity|netapplun_used_capacity_percentage",
+                     "metricName": "Capacity|Used Capacity",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:3_::_",
+                     "resourceKindName": "NetApp LUN",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "NetApp FAS/AFF LUN Capacity Usage Chart (for selected LUN)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 5,
+               "y": 22
+            },
+            "height": 267,
+            "id": "625cbe8e-5e54-4fba-a9c2-7a553b1ec6e4",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_625cbe8e-5e54-4fba-a9c2-7a553b1ec6e4",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_625cbe8e-5e54-4fba-a9c2-7a553b1ec6e4",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_625cbe8e-5e54-4fba-a9c2-7a553b1ec6e4",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_625cbe8e-5e54-4fba-a9c2-7a553b1ec6e4",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_625cbe8e-5e54-4fba-a9c2-7a553b1ec6e4",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_8c3b1ede-a2e0-4be6-9c4d-5b45a3d9c200_625cbe8e-5e54-4fba-a9c2-7a553b1ec6e4",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "NetApp FAS/AFF LUN Capacity Usage Chart (for selected LUN)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel52634-1",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netapplun_total_capacity",
+                        "metricName": "Capacity|Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel52634-2",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netapplun_used_capacity",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel52634-3",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|netapplun_used_capacity_percentage",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel52634-4",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                        "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel52634-5",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NetApp LUN",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "NetApp FAS/AFF LUN Capacity Scoreboard (for selected LUN)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 9,
+               "y": 22
+            },
+            "height": 267,
+            "id": "1be725bc-e20d-489b-bea9-d7c60ddc649d",
+            "title": "NetApp FAS/AFF LUN Capacity Scoreboard (for selected LUN)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 10,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-1",
+                        "isStringMetric": false,
+                        "metricKey": "counts|aggregate",
+                        "metricName": "NetApp Object Counts|Aggregates",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-2",
+                        "isStringMetric": false,
+                        "metricKey": "counts|data_disks",
+                        "metricName": "NetApp Object Counts|Data Disks",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-3",
+                        "isStringMetric": false,
+                        "metricKey": "counts|dparity_disks",
+                        "metricName": "NetApp Object Counts|Double Parity Disks",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-4",
+                        "isStringMetric": false,
+                        "metricKey": "counts|fibre_channel_port",
+                        "metricName": "NetApp Object Counts|Fibre Channel Port",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-5",
+                        "isStringMetric": false,
+                        "metricKey": "counts|lun",
+                        "metricName": "NetApp Object Counts|LUNs",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-6",
+                        "isStringMetric": false,
+                        "metricKey": "counts|network_port",
+                        "metricName": "NetApp Object Counts|Network Port",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-7",
+                        "isStringMetric": false,
+                        "metricKey": "counts|parity_disks",
+                        "metricName": "NetApp Object Counts|Parity Disks",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-8",
+                        "isStringMetric": false,
+                        "metricKey": "counts|qtree",
+                        "metricName": "NetApp Object Counts|Qtrees",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-10",
+                        "isStringMetric": false,
+                        "metricKey": "counts|total_disks",
+                        "metricName": "NetApp Object Counts|Total Disks",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16768-11",
+                        "isStringMetric": false,
+                        "metricKey": "counts|volume",
+                        "metricName": "NetApp Object Counts|Volumes",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp System",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last90Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "System Scoreboard",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 6
+            },
+            "height": 153,
+            "id": "fb091697-a2a2-44f5-aeb7-d101078630a5",
+            "title": "System Scoreboard",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "NetAppAdapter",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "NetAppAggregate"
+      },
+      {
+         "adapterKindKey": "NetAppAdapter",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "NetAppVolume"
+      },
+      {
+         "adapterKindKey": "NetAppAdapter",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "NetAppLun"
+      },
+      {
+         "adapterKindKey": "NetAppAdapter",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "NetAppSystem"
+      }
+   ]},
+   "uuid": "3c5bcfc8-d54e-4eff-b081-229d8c0aedf8"
+}
